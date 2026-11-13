@@ -1,0 +1,28 @@
+# Local environments and caches
+.venv/
+.uv-cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+!.env.example
+# Unrelated archived work stays local
+_archive_tau2/
+# Duplicate transport bundles (the frozen input bundle is required)
+*.zip
+!/avalon_followup_inputs.zip
+# Build intermediates; keep the report PDF and editable figures
+report/_build/
+*.aux
+*.log
+*.blg
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+# Local execution history and browser evidence
+*_execution_history.md
+results/**/runtime_released.png
+.DS_Store
+Thumbs.db

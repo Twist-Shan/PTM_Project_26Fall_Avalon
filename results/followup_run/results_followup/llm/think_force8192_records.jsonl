@@ -1,0 +1,2 @@
+{"id": "think_force8192/av0033", "item": "av0033", "task": "think_force8192", "raw": "矛盾", "output_tokens": 2, "hit_limit": false, "batch_seconds": 2.077184916999613, "batch_size": 2, "input_tokens": 9175}
+{"id": "think_force8192/av0303", "item": "av0303", "task": "think_force8192", "raw": "不成立", "output_tokens": 3, "hit_limit": false, "batch_seconds": 2.077184916999613, "batch_size": 2, "input_tokens": 9175}

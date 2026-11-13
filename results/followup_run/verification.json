@@ -1,0 +1,26 @@
+{
+  "metrics_exact_equal": true,
+  "source_hashes_unchanged": true,
+  "record_counts_verified": {
+    "verify_flag": 276,
+    "verify_evidence": 276,
+    "extract_repair": 85,
+    "verify_evidence_repaired": 276,
+    "think_force3072": 206,
+    "think_cont8192": 206,
+    "think_force8192": 2,
+    "think_cont16384": 2,
+    "think_force16384": 0
+  },
+  "generation_seconds": {
+    "verify_flag": 26.816968881000776,
+    "verify_evidence": 24.734065615999498,
+    "extract_repair": 87.01002539699971,
+    "verify_evidence_repaired": 24.776670609000803,
+    "think_force3072": 93.77095630700069,
+    "think_cont8192": 7570.733403962,
+    "think_force8192": 2.077184916999613,
+    "think_cont16384": 70.34768328599966,
+    "think_force16384": 0
+  }
+}

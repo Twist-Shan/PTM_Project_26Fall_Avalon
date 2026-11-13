@@ -1,0 +1,12 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.tex text eol=lf
+*.bib text eol=lf
+# Frozen inputs and experiment artifacts: preserve exact bytes for hashes
+*.json -text
+*.jsonl -text
+*.ipynb -text
+*.zip binary
+*.pdf binary
+*.png binary

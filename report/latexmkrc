@@ -1,0 +1,2 @@
+# Overleaf (and latexmk) build this project with XeLaTeX: ctex and the Chinese prompts need it.
+$pdf_mode = 5;

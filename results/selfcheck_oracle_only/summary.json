@@ -1,0 +1,40 @@
+{
+  "z3_available": false,
+  "seed": 20261112,
+  "tables_agree": true,
+  "cases": {
+    "n": 44,
+    "pass": 44,
+    "by_expect": {
+      "entailed": 19,
+      "contradicted": 6,
+      "undetermined": 6,
+      "inconsistent": 13
+    },
+    "failed": []
+  },
+  "random": {
+    "instances": 88,
+    "claims": 264,
+    "sound_wrt_truth": 264,
+    "oracle_z3_agree": null
+  },
+  "corrupted": {
+    "n": 60,
+    "all_inconsistent": 60
+  },
+  "min_reveal": {
+    "n": 9,
+    "naive_eq": 9,
+    "cegar_eq": 9,
+    "z3_cegar_eq": null,
+    "adaptive_le_oneshot": 9,
+    "adaptive_lt_oneshot": 0,
+    "no_reveal_set": 3
+  },
+  "votes_uninformative": {
+    "n": 260,
+    "same": 260
+  },
+  "seconds": 74.83
+}

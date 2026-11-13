@@ -1,0 +1,444 @@
+{
+  "direct": {
+    "n": 510,
+    "accuracy": 0.5,
+    "macro_f1": 0.3699168063574843,
+    "f1": {
+      "entailed": 0.6984126984126984,
+      "contradicted": 0.2598870056497175,
+      "undetermined": 0.5213675213675214,
+      "inconsistent": 0.0
+    },
+    "confusion": {
+      "entailed": {
+        "undetermined": 37,
+        "entailed": 110,
+        "contradicted": 3
+      },
+      "contradicted": {
+        "contradicted": 23,
+        "undetermined": 115,
+        "entailed": 12
+      },
+      "undetermined": {
+        "entailed": 27,
+        "undetermined": 122,
+        "contradicted": 1
+      },
+      "inconsistent": {
+        "undetermined": 44,
+        "entailed": 16
+      }
+    },
+    "premature_certainty": [
+      28,
+      150
+    ],
+    "false_uncertainty": [
+      152,
+      300
+    ],
+    "missed_inconsistency": [
+      60,
+      60
+    ],
+    "false_inconsistency": [
+      0,
+      450
+    ],
+    "parse_failures": 0,
+    "lenient_parses": 0,
+    "hit_token_limit": 0,
+    "mean_output_tokens": 2.052941176470588,
+    "by": {
+      "perspective": {
+        "evil_view": 0.21678321678321677,
+        "good_view": 0.5948275862068966,
+        "observer": 0.6370370370370371
+      },
+      "claim": {
+        "atleast": 0.6397058823529411,
+        "evil": 0.46153846153846156,
+        "evil_set": 0.4807692307692308,
+        "exactly": 0.2,
+        "good": 0.5194805194805194,
+        "not": 0.4716981132075472,
+        "role": 0.34782608695652173,
+        "same": 0.5263157894736842
+      },
+      "n": {
+        "10": 0.7272727272727273,
+        "5": 0.4236111111111111,
+        "6": 0.5619834710743802,
+        "7": 0.4491525423728814,
+        "8": 0.5416666666666666,
+        "9": 0.5454545454545454
+      }
+    }
+  },
+  "think": {
+    "n": 510,
+    "accuracy": 0.47843137254901963,
+    "macro_f1": 0.5020360409249298,
+    "f1": {
+      "entailed": 0.7335907335907336,
+      "contradicted": 0.6584362139917695,
+      "undetermined": 0.5238095238095238,
+      "inconsistent": 0.09230769230769231
+    },
+    "confusion": {
+      "entailed": {
+        "parse_failure": 43,
+        "entailed": 95,
+        "undetermined": 9,
+        "contradicted": 3
+      },
+      "contradicted": {
+        "contradicted": 80,
+        "parse_failure": 50,
+        "inconsistent": 2,
+        "undetermined": 16,
+        "entailed": 2
+      },
+      "undetermined": {
+        "parse_failure": 72,
+        "undetermined": 66,
+        "contradicted": 8,
+        "entailed": 4
+      },
+      "inconsistent": {
+        "parse_failure": 36,
+        "inconsistent": 3,
+        "entailed": 8,
+        "undetermined": 11,
+        "contradicted": 2
+      }
+    },
+    "premature_certainty": [
+      12,
+      150
+    ],
+    "false_uncertainty": [
+      25,
+      300
+    ],
+    "missed_inconsistency": [
+      57,
+      60
+    ],
+    "false_inconsistency": [
+      2,
+      450
+    ],
+    "parse_failures": 201,
+    "lenient_parses": 10,
+    "hit_token_limit": 206,
+    "mean_output_tokens": 2352.4666666666667,
+    "by": {
+      "perspective": {
+        "evil_view": 0.25874125874125875,
+        "good_view": 0.5905172413793104,
+        "observer": 0.5185185185185185
+      },
+      "claim": {
+        "atleast": 0.6911764705882353,
+        "evil": 0.3974358974358974,
+        "evil_set": 0.5961538461538461,
+        "exactly": 0.3333333333333333,
+        "good": 0.3246753246753247,
+        "not": 0.32075471698113206,
+        "role": 0.391304347826087,
+        "same": 0.47368421052631576
+      },
+      "n": {
+        "10": 0.5454545454545454,
+        "5": 0.4375,
+        "6": 0.4462809917355372,
+        "7": 0.5,
+        "8": 0.5416666666666666,
+        "9": 0.5151515151515151
+      }
+    }
+  },
+  "extract_solve": {
+    "n": 510,
+    "accuracy": 0.9196078431372549,
+    "macro_f1": 0.90787442280545,
+    "f1": {
+      "entailed": 0.9372937293729373,
+      "contradicted": 0.9148936170212766,
+      "undetermined": 0.9517241379310345,
+      "inconsistent": 0.8275862068965517
+    },
+    "confusion": {
+      "entailed": {
+        "entailed": 142,
+        "contradicted": 3,
+        "inconsistent": 5
+      },
+      "contradicted": {
+        "contradicted": 129,
+        "undetermined": 2,
+        "entailed": 9,
+        "inconsistent": 10
+      },
+      "undetermined": {
+        "undetermined": 138,
+        "entailed": 2,
+        "inconsistent": 10
+      },
+      "inconsistent": {
+        "inconsistent": 60
+      }
+    },
+    "premature_certainty": [
+      2,
+      150
+    ],
+    "false_uncertainty": [
+      2,
+      300
+    ],
+    "missed_inconsistency": [
+      0,
+      60
+    ],
+    "false_inconsistency": [
+      25,
+      450
+    ],
+    "parse_failures": 0,
+    "extraction": {
+      "valid_json": 510,
+      "n_ok": 510,
+      "config_ok": 483,
+      "quests_ok": 510,
+      "view_ok": 509,
+      "claim_ok": 482,
+      "exact": 455
+    },
+    "by": {
+      "perspective": {
+        "evil_view": 0.916083916083916,
+        "good_view": 0.9094827586206896,
+        "observer": 0.9407407407407408
+      },
+      "claim": {
+        "atleast": 0.9632352941176471,
+        "evil": 0.8589743589743589,
+        "evil_set": 0.9615384615384616,
+        "exactly": 0.9666666666666667,
+        "good": 0.8831168831168831,
+        "not": 1.0,
+        "role": 0.782608695652174,
+        "same": 0.9210526315789473
+      },
+      "n": {
+        "10": 0.6363636363636364,
+        "5": 0.9583333333333334,
+        "6": 0.9669421487603306,
+        "7": 0.864406779661017,
+        "8": 0.9305555555555556,
+        "9": 0.9393939393939394
+      }
+    }
+  },
+  "revise_flag": {
+    "n": 510,
+    "accuracy": 0.7,
+    "macro_f1": 0.5443235641301558,
+    "f1": {
+      "entailed": 0.7087378640776699,
+      "contradicted": 0.5622119815668203,
+      "undetermined": 0.9063444108761329,
+      "inconsistent": 0.0
+    },
+    "confusion": {
+      "entailed": {
+        "entailed": 146,
+        "undetermined": 3,
+        "contradicted": 1
+      },
+      "contradicted": {
+        "contradicted": 61,
+        "entailed": 77,
+        "undetermined": 12
+      },
+      "undetermined": {
+        "undetermined": 150
+      },
+      "inconsistent": {
+        "entailed": 39,
+        "contradicted": 5,
+        "undetermined": 16
+      }
+    },
+    "premature_certainty": [
+      0,
+      150
+    ],
+    "false_uncertainty": [
+      15,
+      300
+    ],
+    "missed_inconsistency": [
+      60,
+      60
+    ],
+    "false_inconsistency": [
+      0,
+      450
+    ],
+    "parse_failures": 0,
+    "reasked": 255,
+    "fixed": 102
+  },
+  "revise_evidence": {
+    "n": 510,
+    "accuracy": 0.9686274509803922,
+    "macro_f1": 0.9682135899566049,
+    "f1": {
+      "entailed": 0.9899665551839465,
+      "contradicted": 0.958904109589041,
+      "undetermined": 0.9584664536741214,
+      "inconsistent": 0.9655172413793104
+    },
+    "confusion": {
+      "entailed": {
+        "entailed": 148,
+        "contradicted": 2
+      },
+      "contradicted": {
+        "contradicted": 140,
+        "undetermined": 10
+      },
+      "undetermined": {
+        "undetermined": 150
+      },
+      "inconsistent": {
+        "inconsistent": 56,
+        "undetermined": 3,
+        "entailed": 1
+      }
+    },
+    "premature_certainty": [
+      0,
+      150
+    ],
+    "false_uncertainty": [
+      10,
+      300
+    ],
+    "missed_inconsistency": [
+      4,
+      60
+    ],
+    "false_inconsistency": [
+      0,
+      450
+    ],
+    "parse_failures": 0,
+    "reasked": 255,
+    "fixed": 239
+  },
+  "reveal": {
+    "n": 122,
+    "sufficient": 99,
+    "optimal": 35,
+    "all_candidates_chosen": 0,
+    "invalid": 2,
+    "mean_excess_when_sufficient": 0.9595959595959596,
+    "gold_total": 170
+  },
+  "verification_pipeline": {
+    "direct_wrong": 255,
+    "wrong_flagged": 253,
+    "direct_right": 255,
+    "right_flagged": 23
+  },
+  "paired_bootstrap": {
+    "think_minus_direct": {
+      "diff": -0.021568627450980392,
+      "ci95": [
+        -0.07254901960784314,
+        0.029411764705882353
+      ]
+    },
+    "extract_solve_minus_direct": {
+      "diff": 0.4196078431372549,
+      "ci95": [
+        0.3686274509803922,
+        0.47058823529411764
+      ]
+    },
+    "revise_flag_minus_direct": {
+      "diff": 0.2,
+      "ci95": [
+        0.16470588235294117,
+        0.23333333333333334
+      ]
+    },
+    "revise_evidence_minus_direct": {
+      "diff": 0.46862745098039216,
+      "ci95": [
+        0.4235294117647059,
+        0.5117647058823529
+      ]
+    }
+  },
+  "manifest": {
+    "items": 510,
+    "labels": {
+      "contradicted": 150,
+      "undetermined": 150,
+      "inconsistent": 60,
+      "entailed": 150
+    },
+    "games": 510,
+    "seed": 137,
+    "backend": "z3",
+    "n_dist": {
+      "5": 144,
+      "8": 72,
+      "6": 121,
+      "9": 33,
+      "7": 118,
+      "10": 22
+    },
+    "perspective": {
+      "servant": 139,
+      "observer": 135,
+      "minion": 64,
+      "merlin": 54,
+      "morgana": 49,
+      "percival": 39,
+      "mordred": 21,
+      "oberon": 9
+    },
+    "claim_types": {
+      "evil_set": 52,
+      "atleast": 136,
+      "good": 77,
+      "evil": 78,
+      "role": 46,
+      "same": 38,
+      "not": 53,
+      "exactly": 30
+    },
+    "corruptions": {
+      "team_size": 21,
+      "fails_over_team": 21,
+      "self_fail": 9,
+      "evil_overflow": 3,
+      "two_fail": 5,
+      "percival_three": 1
+    },
+    "reveal_status": {
+      "ok": 122,
+      "none": 28
+    },
+    "tasks_sha256": "256fefe30df81be9bcfde152fe4cf0cb1229b0675a7ad6929b983c7a1dbe59c0",
+    "source": "results/audit/parsed_games.jsonl",
+    "avalonlogs_commit": "3219bbdd1a27b77da6c9e9f7b1f05f7d3969398f"
+  }
+}

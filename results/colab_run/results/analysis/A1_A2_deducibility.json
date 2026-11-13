@@ -1,0 +1,642 @@
+[
+ {
+  "variant": "fails_public",
+  "perspective": "merlin",
+  "after_quest": 1,
+  "states": 562,
+  "mean_fraction_fixed": 0.6213,
+  "all_fixed_rate": 0.4715
+ },
+ {
+  "variant": "fails_public",
+  "perspective": "merlin",
+  "after_quest": 2,
+  "states": 562,
+  "mean_fraction_fixed": 0.6466,
+  "all_fixed_rate": 0.4733
+ },
+ {
+  "variant": "fails_public",
+  "perspective": "merlin",
+  "after_quest": 3,
+  "states": 562,
+  "mean_fraction_fixed": 0.6832,
+  "all_fixed_rate": 0.4893
+ },
+ {
+  "variant": "fails_public",
+  "perspective": "merlin",
+  "after_quest": 4,
+  "states": 424,
+  "mean_fraction_fixed": 0.7407,
+  "all_fixed_rate": 0.5259
+ },
+ {
+  "variant": "fails_public",
+  "perspective": "merlin",
+  "after_quest": 5,
+  "states": 205,
+  "mean_fraction_fixed": 0.8101,
+  "all_fixed_rate": 0.5902
+ },
+ {
+  "variant": "fails_public",
+  "perspective": "minion",
+  "after_quest": 1,
+  "states": 628,
+  "mean_fraction_fixed": 0.9593,
+  "all_fixed_rate": 0.949
+ },
+ {
+  "variant": "fails_public",
+  "perspective": "minion",
+  "after_quest": 2,
+  "states": 628,
+  "mean_fraction_fixed": 0.9611,
+  "all_fixed_rate": 0.949
+ },
+ {
+  "variant": "fails_public",
+  "perspective": "minion",
+  "after_quest": 3,
+  "states": 628,
+  "mean_fraction_fixed": 0.9611,
+  "all_fixed_rate": 0.949
+ },
+ {
+  "variant": "fails_public",
+  "perspective": "minion",
+  "after_quest": 4,
+  "states": 483,
+  "mean_fraction_fixed": 0.9612,
+  "all_fixed_rate": 0.9482
+ },
+ {
+  "variant": "fails_public",
+  "perspective": "minion",
+  "after_quest": 5,
+  "states": 244,
+  "mean_fraction_fixed": 0.9769,
+  "all_fixed_rate": 0.9672
+ },
+ {
+  "variant": "fails_public",
+  "perspective": "mordred",
+  "after_quest": 1,
+  "states": 298,
+  "mean_fraction_fixed": 0.7641,
+  "all_fixed_rate": 0.7114
+ },
+ {
+  "variant": "fails_public",
+  "perspective": "mordred",
+  "after_quest": 2,
+  "states": 298,
+  "mean_fraction_fixed": 0.7749,
+  "all_fixed_rate": 0.7114
+ },
+ {
+  "variant": "fails_public",
+  "perspective": "mordred",
+  "after_quest": 3,
+  "states": 298,
+  "mean_fraction_fixed": 0.7817,
+  "all_fixed_rate": 0.7114
+ },
+ {
+  "variant": "fails_public",
+  "perspective": "mordred",
+  "after_quest": 4,
+  "states": 223,
+  "mean_fraction_fixed": 0.8179,
+  "all_fixed_rate": 0.7309
+ },
+ {
+  "variant": "fails_public",
+  "perspective": "mordred",
+  "after_quest": 5,
+  "states": 108,
+  "mean_fraction_fixed": 0.8563,
+  "all_fixed_rate": 0.7593
+ },
+ {
+  "variant": "fails_public",
+  "perspective": "morgana",
+  "after_quest": 1,
+  "states": 468,
+  "mean_fraction_fixed": 0.8159,
+  "all_fixed_rate": 0.7756
+ },
+ {
+  "variant": "fails_public",
+  "perspective": "morgana",
+  "after_quest": 2,
+  "states": 468,
+  "mean_fraction_fixed": 0.8247,
+  "all_fixed_rate": 0.7756
+ },
+ {
+  "variant": "fails_public",
+  "perspective": "morgana",
+  "after_quest": 3,
+  "states": 468,
+  "mean_fraction_fixed": 0.8299,
+  "all_fixed_rate": 0.7756
+ },
+ {
+  "variant": "fails_public",
+  "perspective": "morgana",
+  "after_quest": 4,
+  "states": 351,
+  "mean_fraction_fixed": 0.8517,
+  "all_fixed_rate": 0.7863
+ },
+ {
+  "variant": "fails_public",
+  "perspective": "morgana",
+  "after_quest": 5,
+  "states": 164,
+  "mean_fraction_fixed": 0.8922,
+  "all_fixed_rate": 0.8232
+ },
+ {
+  "variant": "fails_public",
+  "perspective": "oberon",
+  "after_quest": 1,
+  "states": 112,
+  "mean_fraction_fixed": 0.0045,
+  "all_fixed_rate": 0.0
+ },
+ {
+  "variant": "fails_public",
+  "perspective": "oberon",
+  "after_quest": 2,
+  "states": 112,
+  "mean_fraction_fixed": 0.02,
+  "all_fixed_rate": 0.0
+ },
+ {
+  "variant": "fails_public",
+  "perspective": "oberon",
+  "after_quest": 3,
+  "states": 112,
+  "mean_fraction_fixed": 0.0392,
+  "all_fixed_rate": 0.0
+ },
+ {
+  "variant": "fails_public",
+  "perspective": "oberon",
+  "after_quest": 4,
+  "states": 81,
+  "mean_fraction_fixed": 0.114,
+  "all_fixed_rate": 0.0
+ },
+ {
+  "variant": "fails_public",
+  "perspective": "oberon",
+  "after_quest": 5,
+  "states": 32,
+  "mean_fraction_fixed": 0.2022,
+  "all_fixed_rate": 0.0312
+ },
+ {
+  "variant": "fails_public",
+  "perspective": "observer",
+  "after_quest": 1,
+  "states": 600,
+  "mean_fraction_fixed": 0.0017,
+  "all_fixed_rate": 0.0017
+ },
+ {
+  "variant": "fails_public",
+  "perspective": "observer",
+  "after_quest": 2,
+  "states": 600,
+  "mean_fraction_fixed": 0.0097,
+  "all_fixed_rate": 0.0017
+ },
+ {
+  "variant": "fails_public",
+  "perspective": "observer",
+  "after_quest": 3,
+  "states": 600,
+  "mean_fraction_fixed": 0.0173,
+  "all_fixed_rate": 0.0033
+ },
+ {
+  "variant": "fails_public",
+  "perspective": "observer",
+  "after_quest": 4,
+  "states": 455,
+  "mean_fraction_fixed": 0.0417,
+  "all_fixed_rate": 0.0044
+ },
+ {
+  "variant": "fails_public",
+  "perspective": "observer",
+  "after_quest": 5,
+  "states": 221,
+  "mean_fraction_fixed": 0.0783,
+  "all_fixed_rate": 0.0045
+ },
+ {
+  "variant": "fails_public",
+  "perspective": "percival",
+  "after_quest": 1,
+  "states": 484,
+  "mean_fraction_fixed": 0.0194,
+  "all_fixed_rate": 0.0021
+ },
+ {
+  "variant": "fails_public",
+  "perspective": "percival",
+  "after_quest": 2,
+  "states": 484,
+  "mean_fraction_fixed": 0.0312,
+  "all_fixed_rate": 0.0062
+ },
+ {
+  "variant": "fails_public",
+  "perspective": "percival",
+  "after_quest": 3,
+  "states": 484,
+  "mean_fraction_fixed": 0.0566,
+  "all_fixed_rate": 0.0103
+ },
+ {
+  "variant": "fails_public",
+  "perspective": "percival",
+  "after_quest": 4,
+  "states": 364,
+  "mean_fraction_fixed": 0.1132,
+  "all_fixed_rate": 0.033
+ },
+ {
+  "variant": "fails_public",
+  "perspective": "percival",
+  "after_quest": 5,
+  "states": 170,
+  "mean_fraction_fixed": 0.172,
+  "all_fixed_rate": 0.0353
+ },
+ {
+  "variant": "fails_public",
+  "perspective": "servant",
+  "after_quest": 1,
+  "states": 1411,
+  "mean_fraction_fixed": 0.0053,
+  "all_fixed_rate": 0.0014
+ },
+ {
+  "variant": "fails_public",
+  "perspective": "servant",
+  "after_quest": 2,
+  "states": 1411,
+  "mean_fraction_fixed": 0.0143,
+  "all_fixed_rate": 0.0057
+ },
+ {
+  "variant": "fails_public",
+  "perspective": "servant",
+  "after_quest": 3,
+  "states": 1411,
+  "mean_fraction_fixed": 0.0288,
+  "all_fixed_rate": 0.0085
+ },
+ {
+  "variant": "fails_public",
+  "perspective": "servant",
+  "after_quest": 4,
+  "states": 1072,
+  "mean_fraction_fixed": 0.0599,
+  "all_fixed_rate": 0.0196
+ },
+ {
+  "variant": "fails_public",
+  "perspective": "servant",
+  "after_quest": 5,
+  "states": 521,
+  "mean_fraction_fixed": 0.103,
+  "all_fixed_rate": 0.0384
+ },
+ {
+  "variant": "result_only",
+  "perspective": "merlin",
+  "after_quest": 1,
+  "states": 562,
+  "mean_fraction_fixed": 0.6213,
+  "all_fixed_rate": 0.4715
+ },
+ {
+  "variant": "result_only",
+  "perspective": "merlin",
+  "after_quest": 2,
+  "states": 562,
+  "mean_fraction_fixed": 0.6416,
+  "all_fixed_rate": 0.4733
+ },
+ {
+  "variant": "result_only",
+  "perspective": "merlin",
+  "after_quest": 3,
+  "states": 562,
+  "mean_fraction_fixed": 0.6744,
+  "all_fixed_rate": 0.4875
+ },
+ {
+  "variant": "result_only",
+  "perspective": "merlin",
+  "after_quest": 4,
+  "states": 424,
+  "mean_fraction_fixed": 0.72,
+  "all_fixed_rate": 0.5212
+ },
+ {
+  "variant": "result_only",
+  "perspective": "merlin",
+  "after_quest": 5,
+  "states": 205,
+  "mean_fraction_fixed": 0.7733,
+  "all_fixed_rate": 0.5561
+ },
+ {
+  "variant": "result_only",
+  "perspective": "minion",
+  "after_quest": 1,
+  "states": 628,
+  "mean_fraction_fixed": 0.9593,
+  "all_fixed_rate": 0.949
+ },
+ {
+  "variant": "result_only",
+  "perspective": "minion",
+  "after_quest": 2,
+  "states": 628,
+  "mean_fraction_fixed": 0.9604,
+  "all_fixed_rate": 0.949
+ },
+ {
+  "variant": "result_only",
+  "perspective": "minion",
+  "after_quest": 3,
+  "states": 628,
+  "mean_fraction_fixed": 0.9604,
+  "all_fixed_rate": 0.949
+ },
+ {
+  "variant": "result_only",
+  "perspective": "minion",
+  "after_quest": 4,
+  "states": 483,
+  "mean_fraction_fixed": 0.9593,
+  "all_fixed_rate": 0.9482
+ },
+ {
+  "variant": "result_only",
+  "perspective": "minion",
+  "after_quest": 5,
+  "states": 244,
+  "mean_fraction_fixed": 0.9755,
+  "all_fixed_rate": 0.9672
+ },
+ {
+  "variant": "result_only",
+  "perspective": "mordred",
+  "after_quest": 1,
+  "states": 298,
+  "mean_fraction_fixed": 0.7641,
+  "all_fixed_rate": 0.7114
+ },
+ {
+  "variant": "result_only",
+  "perspective": "mordred",
+  "after_quest": 2,
+  "states": 298,
+  "mean_fraction_fixed": 0.7684,
+  "all_fixed_rate": 0.7114
+ },
+ {
+  "variant": "result_only",
+  "perspective": "mordred",
+  "after_quest": 3,
+  "states": 298,
+  "mean_fraction_fixed": 0.7706,
+  "all_fixed_rate": 0.7114
+ },
+ {
+  "variant": "result_only",
+  "perspective": "mordred",
+  "after_quest": 4,
+  "states": 223,
+  "mean_fraction_fixed": 0.7943,
+  "all_fixed_rate": 0.7309
+ },
+ {
+  "variant": "result_only",
+  "perspective": "mordred",
+  "after_quest": 5,
+  "states": 108,
+  "mean_fraction_fixed": 0.8187,
+  "all_fixed_rate": 0.7593
+ },
+ {
+  "variant": "result_only",
+  "perspective": "morgana",
+  "after_quest": 1,
+  "states": 468,
+  "mean_fraction_fixed": 0.8159,
+  "all_fixed_rate": 0.7756
+ },
+ {
+  "variant": "result_only",
+  "perspective": "morgana",
+  "after_quest": 2,
+  "states": 468,
+  "mean_fraction_fixed": 0.8206,
+  "all_fixed_rate": 0.7756
+ },
+ {
+  "variant": "result_only",
+  "perspective": "morgana",
+  "after_quest": 3,
+  "states": 468,
+  "mean_fraction_fixed": 0.8224,
+  "all_fixed_rate": 0.7756
+ },
+ {
+  "variant": "result_only",
+  "perspective": "morgana",
+  "after_quest": 4,
+  "states": 351,
+  "mean_fraction_fixed": 0.8362,
+  "all_fixed_rate": 0.7863
+ },
+ {
+  "variant": "result_only",
+  "perspective": "morgana",
+  "after_quest": 5,
+  "states": 164,
+  "mean_fraction_fixed": 0.8693,
+  "all_fixed_rate": 0.8232
+ },
+ {
+  "variant": "result_only",
+  "perspective": "oberon",
+  "after_quest": 1,
+  "states": 112,
+  "mean_fraction_fixed": 0.0045,
+  "all_fixed_rate": 0.0
+ },
+ {
+  "variant": "result_only",
+  "perspective": "oberon",
+  "after_quest": 2,
+  "states": 112,
+  "mean_fraction_fixed": 0.0118,
+  "all_fixed_rate": 0.0
+ },
+ {
+  "variant": "result_only",
+  "perspective": "oberon",
+  "after_quest": 3,
+  "states": 112,
+  "mean_fraction_fixed": 0.0229,
+  "all_fixed_rate": 0.0
+ },
+ {
+  "variant": "result_only",
+  "perspective": "oberon",
+  "after_quest": 4,
+  "states": 81,
+  "mean_fraction_fixed": 0.0649,
+  "all_fixed_rate": 0.0
+ },
+ {
+  "variant": "result_only",
+  "perspective": "oberon",
+  "after_quest": 5,
+  "states": 32,
+  "mean_fraction_fixed": 0.0956,
+  "all_fixed_rate": 0.0
+ },
+ {
+  "variant": "result_only",
+  "perspective": "observer",
+  "after_quest": 1,
+  "states": 600,
+  "mean_fraction_fixed": 0.0,
+  "all_fixed_rate": 0.0
+ },
+ {
+  "variant": "result_only",
+  "perspective": "observer",
+  "after_quest": 2,
+  "states": 600,
+  "mean_fraction_fixed": 0.0006,
+  "all_fixed_rate": 0.0
+ },
+ {
+  "variant": "result_only",
+  "perspective": "observer",
+  "after_quest": 3,
+  "states": 600,
+  "mean_fraction_fixed": 0.0012,
+  "all_fixed_rate": 0.0
+ },
+ {
+  "variant": "result_only",
+  "perspective": "observer",
+  "after_quest": 4,
+  "states": 455,
+  "mean_fraction_fixed": 0.0015,
+  "all_fixed_rate": 0.0
+ },
+ {
+  "variant": "result_only",
+  "perspective": "observer",
+  "after_quest": 5,
+  "states": 221,
+  "mean_fraction_fixed": 0.0023,
+  "all_fixed_rate": 0.0
+ },
+ {
+  "variant": "result_only",
+  "perspective": "percival",
+  "after_quest": 1,
+  "states": 484,
+  "mean_fraction_fixed": 0.0171,
+  "all_fixed_rate": 0.0
+ },
+ {
+  "variant": "result_only",
+  "perspective": "percival",
+  "after_quest": 2,
+  "states": 484,
+  "mean_fraction_fixed": 0.0202,
+  "all_fixed_rate": 0.0
+ },
+ {
+  "variant": "result_only",
+  "perspective": "percival",
+  "after_quest": 3,
+  "states": 484,
+  "mean_fraction_fixed": 0.0385,
+  "all_fixed_rate": 0.0041
+ },
+ {
+  "variant": "result_only",
+  "perspective": "percival",
+  "after_quest": 4,
+  "states": 364,
+  "mean_fraction_fixed": 0.0696,
+  "all_fixed_rate": 0.011
+ },
+ {
+  "variant": "result_only",
+  "perspective": "percival",
+  "after_quest": 5,
+  "states": 170,
+  "mean_fraction_fixed": 0.0961,
+  "all_fixed_rate": 0.0118
+ },
+ {
+  "variant": "result_only",
+  "perspective": "servant",
+  "after_quest": 1,
+  "states": 1411,
+  "mean_fraction_fixed": 0.0039,
+  "all_fixed_rate": 0.0
+ },
+ {
+  "variant": "result_only",
+  "perspective": "servant",
+  "after_quest": 2,
+  "states": 1411,
+  "mean_fraction_fixed": 0.0047,
+  "all_fixed_rate": 0.0
+ },
+ {
+  "variant": "result_only",
+  "perspective": "servant",
+  "after_quest": 3,
+  "states": 1411,
+  "mean_fraction_fixed": 0.0102,
+  "all_fixed_rate": 0.0007
+ },
+ {
+  "variant": "result_only",
+  "perspective": "servant",
+  "after_quest": 4,
+  "states": 1072,
+  "mean_fraction_fixed": 0.0142,
+  "all_fixed_rate": 0.0009
+ },
+ {
+  "variant": "result_only",
+  "perspective": "servant",
+  "after_quest": 5,
+  "states": 521,
+  "mean_fraction_fixed": 0.0178,
+  "all_fixed_rate": 0.0038
+ }
+]
