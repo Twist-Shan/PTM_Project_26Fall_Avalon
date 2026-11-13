@@ -1,0 +1,7 @@
+{
+  "backend": "z3",
+  "games_available": 12446,
+  "games_sampled": 600,
+  "seed": 271,
+  "seconds": 1502.6
+}

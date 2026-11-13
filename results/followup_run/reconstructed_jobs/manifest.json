@@ -1,0 +1,50 @@
+{
+  "note": "Rebuilt locally with avalon/followup.py --reconstruct, replaying the notebook order of Z3 work; each file is byte-identical in content to the job list the Colab run used when its jobs_sha256 matches the run metadata.",
+  "jobs": {
+    "verify_flag": {
+      "n": 276,
+      "jobs_sha256": "636001e080abfeec70b4aa2b6f552ef73988eb1e82d432c40ecd51620cbdc4ec",
+      "matches_run_metadata": true
+    },
+    "verify_evidence": {
+      "n": 276,
+      "jobs_sha256": "b39efec7efcfa09a85fe6cfa1e4f35beaa89df1d4ffd385725233b77636d3a80",
+      "matches_run_metadata": true
+    },
+    "extract_repair": {
+      "n": 85,
+      "jobs_sha256": "f91eb4e9ae50d05b3b20f9fc7848570bb14cc7790ee741b6d745faa04fcca809",
+      "matches_run_metadata": true
+    },
+    "verify_evidence_repaired": {
+      "n": 276,
+      "jobs_sha256": "2e8eccef413aa20e7da392ef2e701436fbc6d14c26c1ae6af3e1adb550a0af1c",
+      "matches_run_metadata": true
+    },
+    "think_force3072": {
+      "n": 206,
+      "jobs_sha256": "9f7b1fb4866ec38f6aa76eb626999bfaa4646ef7a16f1d7bd2740f10c8fe8f84",
+      "matches_run_metadata": true
+    },
+    "think_cont8192": {
+      "n": 206,
+      "jobs_sha256": "41769cfb4b6e1a099a72c344e63eea65b7ffb69676ef7bf06e3fb5e37e9b997e",
+      "matches_run_metadata": true
+    },
+    "think_force8192": {
+      "n": 2,
+      "jobs_sha256": "bd694cdfeff715d70a8234509cf21402190556e81e61f43bdb59475fe1cfbdac",
+      "matches_run_metadata": true
+    },
+    "think_cont16384": {
+      "n": 2,
+      "jobs_sha256": "07ca41c4e36e7c2d5585b76168d5c60917ea90a1483ef376768ac285aa44304d",
+      "matches_run_metadata": true
+    },
+    "think_force16384": {
+      "n": 0,
+      "jobs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "matches_run_metadata": true
+    }
+  }
+}

@@ -1,0 +1,852 @@
+{
+  "reproduced_first_run": {
+    "direct": {
+      "accuracy": 0.5,
+      "macro_f1": 0.3699168063574843
+    },
+    "think": {
+      "accuracy": 0.47843137254901963,
+      "macro_f1": 0.5020360409249298
+    },
+    "extract_solve": {
+      "accuracy": 0.9196078431372549,
+      "macro_f1": 0.90787442280545
+    }
+  },
+  "direct": {
+    "n": 510,
+    "accuracy": 0.5,
+    "macro_f1": 0.3699168063574843,
+    "f1": {
+      "entailed": 0.6984126984126984,
+      "contradicted": 0.2598870056497175,
+      "undetermined": 0.5213675213675214,
+      "inconsistent": 0.0
+    },
+    "confusion": {
+      "entailed": {
+        "undetermined": 37,
+        "entailed": 110,
+        "contradicted": 3
+      },
+      "contradicted": {
+        "contradicted": 23,
+        "undetermined": 115,
+        "entailed": 12
+      },
+      "undetermined": {
+        "entailed": 27,
+        "undetermined": 122,
+        "contradicted": 1
+      },
+      "inconsistent": {
+        "undetermined": 44,
+        "entailed": 16
+      }
+    },
+    "premature_certainty": [
+      28,
+      150
+    ],
+    "false_uncertainty": [
+      152,
+      300
+    ],
+    "missed_inconsistency": [
+      60,
+      60
+    ],
+    "false_inconsistency": [
+      0,
+      450
+    ],
+    "parse_failures": 0
+  },
+  "think3072_strict": {
+    "n": 510,
+    "accuracy": 0.4764705882352941,
+    "macro_f1": 0.5040383045290635,
+    "f1": {
+      "entailed": 0.7401574803149606,
+      "contradicted": 0.6584362139917695,
+      "undetermined": 0.5238095238095238,
+      "inconsistent": 0.09375
+    },
+    "confusion": {
+      "entailed": {
+        "parse_failure": 44,
+        "entailed": 94,
+        "undetermined": 9,
+        "contradicted": 3
+      },
+      "contradicted": {
+        "contradicted": 80,
+        "parse_failure": 52,
+        "inconsistent": 1,
+        "undetermined": 16,
+        "entailed": 1
+      },
+      "undetermined": {
+        "parse_failure": 74,
+        "undetermined": 66,
+        "contradicted": 8,
+        "entailed": 2
+      },
+      "inconsistent": {
+        "parse_failure": 37,
+        "inconsistent": 3,
+        "entailed": 7,
+        "undetermined": 11,
+        "contradicted": 2
+      }
+    },
+    "premature_certainty": [
+      10,
+      150
+    ],
+    "false_uncertainty": [
+      25,
+      300
+    ],
+    "missed_inconsistency": [
+      57,
+      60
+    ],
+    "false_inconsistency": [
+      1,
+      450
+    ],
+    "parse_failures": 207
+  },
+  "think3072_forced": {
+    "n": 510,
+    "accuracy": 0.6705882352941176,
+    "macro_f1": 0.6167386245511245,
+    "f1": {
+      "entailed": 0.7878787878787878,
+      "contradicted": 0.6923076923076923,
+      "undetermined": 0.6354166666666666,
+      "inconsistent": 0.35135135135135137
+    },
+    "confusion": {
+      "entailed": {
+        "undetermined": 29,
+        "entailed": 117,
+        "parse_failure": 1,
+        "contradicted": 3
+      },
+      "contradicted": {
+        "contradicted": 90,
+        "undetermined": 51,
+        "inconsistent": 1,
+        "entailed": 7,
+        "parse_failure": 1
+      },
+      "undetermined": {
+        "undetermined": 122,
+        "contradicted": 14,
+        "parse_failure": 2,
+        "entailed": 12
+      },
+      "inconsistent": {
+        "undetermined": 32,
+        "inconsistent": 13,
+        "entailed": 11,
+        "contradicted": 3,
+        "parse_failure": 1
+      }
+    },
+    "premature_certainty": [
+      26,
+      150
+    ],
+    "false_uncertainty": [
+      80,
+      300
+    ],
+    "missed_inconsistency": [
+      47,
+      60
+    ],
+    "false_inconsistency": [
+      1,
+      450
+    ],
+    "parse_failures": 5,
+    "forced": 206
+  },
+  "think8192_strict": {
+    "n": 510,
+    "accuracy": 0.6686274509803921,
+    "macro_f1": 0.6117283768238359,
+    "f1": {
+      "entailed": 0.7956989247311828,
+      "contradicted": 0.7010309278350515,
+      "undetermined": 0.6446280991735537,
+      "inconsistent": 0.3055555555555556
+    },
+    "confusion": {
+      "entailed": {
+        "undetermined": 27,
+        "entailed": 111,
+        "contradicted": 9,
+        "parse_failure": 3
+      },
+      "contradicted": {
+        "contradicted": 102,
+        "undetermined": 44,
+        "inconsistent": 1,
+        "entailed": 1,
+        "parse_failure": 2
+      },
+      "undetermined": {
+        "undetermined": 117,
+        "parse_failure": 8,
+        "contradicted": 21,
+        "entailed": 4
+      },
+      "inconsistent": {
+        "undetermined": 25,
+        "inconsistent": 11,
+        "parse_failure": 2,
+        "entailed": 13,
+        "contradicted": 9
+      }
+    },
+    "premature_certainty": [
+      25,
+      150
+    ],
+    "false_uncertainty": [
+      71,
+      300
+    ],
+    "missed_inconsistency": [
+      49,
+      60
+    ],
+    "false_inconsistency": [
+      1,
+      450
+    ],
+    "parse_failures": 15
+  },
+  "think8192_forced": {
+    "n": 510,
+    "accuracy": 0.6725490196078432,
+    "macro_f1": 0.6186433998118006,
+    "f1": {
+      "entailed": 0.7956989247311828,
+      "contradicted": 0.7054794520547946,
+      "undetermined": 0.6446280991735537,
+      "inconsistent": 0.3287671232876712
+    },
+    "confusion": {
+      "entailed": {
+        "undetermined": 27,
+        "entailed": 111,
+        "contradicted": 9,
+        "parse_failure": 3
+      },
+      "contradicted": {
+        "contradicted": 103,
+        "undetermined": 44,
+        "inconsistent": 1,
+        "entailed": 1,
+        "parse_failure": 1
+      },
+      "undetermined": {
+        "undetermined": 117,
+        "parse_failure": 8,
+        "contradicted": 21,
+        "entailed": 4
+      },
+      "inconsistent": {
+        "undetermined": 25,
+        "inconsistent": 12,
+        "entailed": 13,
+        "contradicted": 9,
+        "parse_failure": 1
+      }
+    },
+    "premature_certainty": [
+      25,
+      150
+    ],
+    "false_uncertainty": [
+      71,
+      300
+    ],
+    "missed_inconsistency": [
+      48,
+      60
+    ],
+    "false_inconsistency": [
+      1,
+      450
+    ],
+    "parse_failures": 13,
+    "forced": 2
+  },
+  "think16384_strict": {
+    "n": 510,
+    "accuracy": 0.6705882352941176,
+    "macro_f1": 0.6123977687996689,
+    "f1": {
+      "entailed": 0.7956989247311828,
+      "contradicted": 0.7054794520547946,
+      "undetermined": 0.6428571428571429,
+      "inconsistent": 0.3055555555555556
+    },
+    "confusion": {
+      "entailed": {
+        "undetermined": 27,
+        "entailed": 111,
+        "contradicted": 9,
+        "parse_failure": 3
+      },
+      "contradicted": {
+        "contradicted": 103,
+        "undetermined": 44,
+        "inconsistent": 1,
+        "entailed": 1,
+        "parse_failure": 1
+      },
+      "undetermined": {
+        "undetermined": 117,
+        "parse_failure": 8,
+        "contradicted": 21,
+        "entailed": 4
+      },
+      "inconsistent": {
+        "undetermined": 26,
+        "inconsistent": 11,
+        "entailed": 13,
+        "contradicted": 9,
+        "parse_failure": 1
+      }
+    },
+    "premature_certainty": [
+      25,
+      150
+    ],
+    "false_uncertainty": [
+      71,
+      300
+    ],
+    "missed_inconsistency": [
+      49,
+      60
+    ],
+    "false_inconsistency": [
+      1,
+      450
+    ],
+    "parse_failures": 13
+  },
+  "think16384_forced": {
+    "n": 510,
+    "accuracy": 0.6705882352941176,
+    "macro_f1": 0.6123977687996689,
+    "f1": {
+      "entailed": 0.7956989247311828,
+      "contradicted": 0.7054794520547946,
+      "undetermined": 0.6428571428571429,
+      "inconsistent": 0.3055555555555556
+    },
+    "confusion": {
+      "entailed": {
+        "undetermined": 27,
+        "entailed": 111,
+        "contradicted": 9,
+        "parse_failure": 3
+      },
+      "contradicted": {
+        "contradicted": 103,
+        "undetermined": 44,
+        "inconsistent": 1,
+        "entailed": 1,
+        "parse_failure": 1
+      },
+      "undetermined": {
+        "undetermined": 117,
+        "parse_failure": 8,
+        "contradicted": 21,
+        "entailed": 4
+      },
+      "inconsistent": {
+        "undetermined": 26,
+        "inconsistent": 11,
+        "entailed": 13,
+        "contradicted": 9,
+        "parse_failure": 1
+      }
+    },
+    "premature_certainty": [
+      25,
+      150
+    ],
+    "false_uncertainty": [
+      71,
+      300
+    ],
+    "missed_inconsistency": [
+      49,
+      60
+    ],
+    "false_inconsistency": [
+      1,
+      450
+    ],
+    "parse_failures": 13,
+    "forced": 0
+  },
+  "think_budget_table": {
+    "3072": {
+      "unfinished": 206,
+      "mean_tokens": 2352.4666666666667,
+      "forced_accuracy": 0.6705882352941176,
+      "strict_accuracy": 0.4764705882352941,
+      "strict_parse_failures": 207
+    },
+    "8192": {
+      "unfinished": 2,
+      "mean_tokens": 2856.3254901960786,
+      "forced_accuracy": 0.6725490196078432,
+      "strict_accuracy": 0.6686274509803921,
+      "strict_parse_failures": 15
+    },
+    "16384": {
+      "unfinished": 0,
+      "mean_tokens": 2858.972549019608,
+      "forced_accuracy": 0.6705882352941176,
+      "strict_accuracy": 0.6705882352941176,
+      "strict_parse_failures": 13
+    }
+  },
+  "extract_solve": {
+    "n": 510,
+    "accuracy": 0.9196078431372549,
+    "macro_f1": 0.90787442280545,
+    "f1": {
+      "entailed": 0.9372937293729373,
+      "contradicted": 0.9148936170212766,
+      "undetermined": 0.9517241379310345,
+      "inconsistent": 0.8275862068965517
+    },
+    "confusion": {
+      "entailed": {
+        "entailed": 142,
+        "contradicted": 3,
+        "inconsistent": 5
+      },
+      "contradicted": {
+        "contradicted": 129,
+        "undetermined": 2,
+        "entailed": 9,
+        "inconsistent": 10
+      },
+      "undetermined": {
+        "undetermined": 138,
+        "entailed": 2,
+        "inconsistent": 10
+      },
+      "inconsistent": {
+        "inconsistent": 60
+      }
+    },
+    "premature_certainty": [
+      2,
+      150
+    ],
+    "false_uncertainty": [
+      2,
+      300
+    ],
+    "missed_inconsistency": [
+      0,
+      60
+    ],
+    "false_inconsistency": [
+      25,
+      450
+    ],
+    "parse_failures": 0,
+    "extraction": {
+      "valid_json": 510,
+      "n_ok": 510,
+      "config_ok": 483,
+      "quests_ok": 510,
+      "view_ok": 509,
+      "claim_ok": 482,
+      "exact": 455
+    }
+  },
+  "extract_repair": {
+    "n": 510,
+    "accuracy": 0.9196078431372549,
+    "macro_f1": 0.90787442280545,
+    "f1": {
+      "entailed": 0.9372937293729373,
+      "contradicted": 0.9148936170212766,
+      "undetermined": 0.9517241379310345,
+      "inconsistent": 0.8275862068965517
+    },
+    "confusion": {
+      "entailed": {
+        "entailed": 142,
+        "contradicted": 3,
+        "inconsistent": 5
+      },
+      "contradicted": {
+        "contradicted": 129,
+        "undetermined": 2,
+        "entailed": 9,
+        "inconsistent": 10
+      },
+      "undetermined": {
+        "undetermined": 138,
+        "entailed": 2,
+        "inconsistent": 10
+      },
+      "inconsistent": {
+        "inconsistent": 60
+      }
+    },
+    "premature_certainty": [
+      2,
+      150
+    ],
+    "false_uncertainty": [
+      2,
+      300
+    ],
+    "missed_inconsistency": [
+      0,
+      60
+    ],
+    "false_inconsistency": [
+      25,
+      450
+    ],
+    "parse_failures": 0,
+    "triggered": 85,
+    "changed": 0,
+    "triggered_gold": {
+      "inconsistent": 60,
+      "undetermined": 10,
+      "entailed": 5,
+      "contradicted": 10
+    },
+    "extraction": {
+      "valid_json": 510,
+      "n_ok": 510,
+      "config_ok": 483,
+      "quests_ok": 510,
+      "view_ok": 509,
+      "claim_ok": 482,
+      "exact": 455
+    }
+  },
+  "solver_final": {
+    "n": 510,
+    "accuracy": 0.9196078431372549,
+    "macro_f1": 0.90787442280545,
+    "f1": {
+      "entailed": 0.9372937293729373,
+      "contradicted": 0.9148936170212766,
+      "undetermined": 0.9517241379310345,
+      "inconsistent": 0.8275862068965517
+    },
+    "confusion": {
+      "entailed": {
+        "entailed": 142,
+        "contradicted": 3,
+        "inconsistent": 5
+      },
+      "contradicted": {
+        "contradicted": 129,
+        "undetermined": 2,
+        "entailed": 9,
+        "inconsistent": 10
+      },
+      "undetermined": {
+        "undetermined": 138,
+        "entailed": 2,
+        "inconsistent": 10
+      },
+      "inconsistent": {
+        "inconsistent": 60
+      }
+    },
+    "premature_certainty": [
+      2,
+      150
+    ],
+    "false_uncertainty": [
+      2,
+      300
+    ],
+    "missed_inconsistency": [
+      0,
+      60
+    ],
+    "false_inconsistency": [
+      25,
+      450
+    ],
+    "parse_failures": 0
+  },
+  "verify_flag": {
+    "n": 510,
+    "accuracy": 0.6529411764705882,
+    "macro_f1": 0.5062550828885488,
+    "f1": {
+      "entailed": 0.6698564593301436,
+      "contradicted": 0.5213270142180095,
+      "undetermined": 0.8338368580060423,
+      "inconsistent": 0.0
+    },
+    "confusion": {
+      "entailed": {
+        "entailed": 140,
+        "undetermined": 9,
+        "contradicted": 1
+      },
+      "contradicted": {
+        "contradicted": 55,
+        "entailed": 77,
+        "undetermined": 18
+      },
+      "undetermined": {
+        "undetermined": 138,
+        "entailed": 12
+      },
+      "inconsistent": {
+        "entailed": 39,
+        "contradicted": 5,
+        "undetermined": 16
+      }
+    },
+    "premature_certainty": [
+      12,
+      150
+    ],
+    "false_uncertainty": [
+      27,
+      300
+    ],
+    "missed_inconsistency": [
+      60,
+      60
+    ],
+    "false_inconsistency": [
+      0,
+      450
+    ],
+    "parse_failures": 0,
+    "reasked": 276,
+    "fixed": 101,
+    "broken": 23,
+    "followed_solver": 103,
+    "kept_own_answer": 0,
+    "solver_right": 237,
+    "followed_when_solver_right": 95,
+    "solver_wrong": 39,
+    "followed_when_solver_wrong": 8
+  },
+  "verify_evidence": {
+    "n": 510,
+    "accuracy": 0.8921568627450981,
+    "macro_f1": 0.8799632393540051,
+    "f1": {
+      "entailed": 0.9302325581395349,
+      "contradicted": 0.8759124087591241,
+      "undetermined": 0.9108910891089109,
+      "inconsistent": 0.8028169014084507
+    },
+    "confusion": {
+      "entailed": {
+        "entailed": 140,
+        "undetermined": 1,
+        "inconsistent": 5,
+        "contradicted": 4
+      },
+      "contradicted": {
+        "contradicted": 120,
+        "undetermined": 12,
+        "entailed": 8,
+        "inconsistent": 10
+      },
+      "undetermined": {
+        "undetermined": 138,
+        "entailed": 2,
+        "inconsistent": 10
+      },
+      "inconsistent": {
+        "inconsistent": 57,
+        "undetermined": 2,
+        "entailed": 1
+      }
+    },
+    "premature_certainty": [
+      2,
+      150
+    ],
+    "false_uncertainty": [
+      13,
+      300
+    ],
+    "missed_inconsistency": [
+      3,
+      60
+    ],
+    "false_inconsistency": [
+      25,
+      450
+    ],
+    "parse_failures": 0,
+    "reasked": 276,
+    "fixed": 223,
+    "broken": 23,
+    "followed_solver": 259,
+    "kept_own_answer": 0,
+    "solver_right": 237,
+    "followed_when_solver_right": 222,
+    "solver_wrong": 39,
+    "followed_when_solver_wrong": 37
+  },
+  "verify_evidence_repaired": {
+    "n": 510,
+    "accuracy": 0.8901960784313725,
+    "macro_f1": 0.877091486218879,
+    "f1": {
+      "entailed": 0.9302325581395349,
+      "contradicted": 0.8759124087591241,
+      "undetermined": 0.9078947368421053,
+      "inconsistent": 0.7943262411347518
+    },
+    "confusion": {
+      "entailed": {
+        "entailed": 140,
+        "undetermined": 1,
+        "inconsistent": 5,
+        "contradicted": 4
+      },
+      "contradicted": {
+        "contradicted": 120,
+        "undetermined": 12,
+        "entailed": 8,
+        "inconsistent": 10
+      },
+      "undetermined": {
+        "undetermined": 138,
+        "entailed": 2,
+        "inconsistent": 10
+      },
+      "inconsistent": {
+        "inconsistent": 56,
+        "undetermined": 3,
+        "entailed": 1
+      }
+    },
+    "premature_certainty": [
+      2,
+      150
+    ],
+    "false_uncertainty": [
+      13,
+      300
+    ],
+    "missed_inconsistency": [
+      4,
+      60
+    ],
+    "false_inconsistency": [
+      25,
+      450
+    ],
+    "parse_failures": 0,
+    "reasked": 276,
+    "fixed": 222,
+    "broken": 23,
+    "followed_solver": 258,
+    "kept_own_answer": 0,
+    "solver_right": 237,
+    "followed_when_solver_right": 221,
+    "solver_wrong": 39,
+    "followed_when_solver_wrong": 37
+  },
+  "paired_bootstrap": {
+    "think16384_forced_minus_direct": {
+      "diff": 0.17058823529411765,
+      "ci95": [
+        0.12156862745098039,
+        0.2196078431372549
+      ]
+    },
+    "think16384_strict_minus_direct": {
+      "diff": 0.17058823529411765,
+      "ci95": [
+        0.12156862745098039,
+        0.2196078431372549
+      ]
+    },
+    "think16384_strict_minus_think3072_strict": {
+      "diff": 0.19411764705882353,
+      "ci95": [
+        0.1607843137254902,
+        0.22941176470588234
+      ]
+    },
+    "extract_solve_minus_think16384_forced": {
+      "diff": 0.24901960784313726,
+      "ci95": [
+        0.2019607843137255,
+        0.3
+      ]
+    },
+    "extract_repair_minus_extract_solve": {
+      "diff": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "verify_flag_minus_direct": {
+      "diff": 0.15294117647058825,
+      "ci95": [
+        0.11372549019607843,
+        0.19411764705882353
+      ]
+    },
+    "verify_evidence_minus_direct": {
+      "diff": 0.39215686274509803,
+      "ci95": [
+        0.3411764705882353,
+        0.4411764705882353
+      ]
+    },
+    "verify_evidence_repaired_minus_direct": {
+      "diff": 0.39019607843137255,
+      "ci95": [
+        0.3392156862745098,
+        0.4411764705882353
+      ]
+    },
+    "verify_evidence_minus_extract_solve": {
+      "diff": -0.027450980392156862,
+      "ci95": [
+        -0.043137254901960784,
+        -0.013725490196078431
+      ]
+    },
+    "verify_evidence_repaired_minus_extract_repair": {
+      "diff": -0.029411764705882353,
+      "ci95": [
+        -0.045098039215686274,
+        -0.013725490196078431
+      ]
+    }
+  }
+}

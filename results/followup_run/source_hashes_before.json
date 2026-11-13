@@ -1,0 +1,18 @@
+{
+  "avalon\\analyze.py": "6ec0353198a69825fc1df29b31d7bab933d63ccb013ee4fa09d9625b6aa7226e",
+  "avalon\\build_colab.py": "c49462eeecba1fb9b84619a4c85b51d66cb612f5e286d72c8dce776b02daac62",
+  "avalon\\build_followup_colab.py": "d0affeaf38bdffe9fa15d532d7ee97e7cdb6bd6aa7ac4bb86e43cf0aa38e8fda",
+  "avalon\\cases.py": "472ba91d4974f75a5ddb4353959b24287d452c20fc8c0609f7b5508401fce14b",
+  "avalon\\followup.py": "ed1cab4bc83b3e2ec1093f27250d1ecac58df2b3dbf4ea3761996a822e8e243e",
+  "avalon\\game.py": "b2d0ac8e9fecdd2ad38b6fcf32918f9956ea8322dbc661959926d71abbb57211",
+  "avalon\\llm_run.py": "47a9adcf9414a7923a3794967920ddf6a5bd4f95b538fca37667f7c2165315a0",
+  "avalon\\llm_tasks.py": "ba89db2de1883e36d845cef1020b66720ca0f9e25056a00516571f3f6d4cceea",
+  "avalon\\logs.py": "7aeef563e271159df000625d9458acb7d05bcfa7007f5303a08542f0ff2dde6d",
+  "avalon\\oracle.py": "97153c6487e96e5426d3773f61d7e9f55b5053b0f1340f6238e30ce5b44b123d",
+  "avalon\\search.py": "f14cf65663edd408bf716aade9b7a842e3bcfabb0a37c328840f36be6d5625c4",
+  "avalon\\selfcheck.py": "1520adb1eb3511c32850160775de9c6ad2c51c179153d28fa1daed4954510b95",
+  "avalon\\sim.py": "57819bb0bf2823e143fd5617fa0ff200f2cd81da7899b6cd34c7c098d4442f82",
+  "avalon\\smt.py": "f4eee3e7bc07ca01268d9da3666d49aba80a2d47bb2be734b6ac10ccbc0eef42",
+  "colab_avalon_followup.ipynb": "3fc73b6974ef108b18e11818c525a010140070617438cf8b4948393e8af60f1b",
+  "avalon_followup_inputs.zip": "30c050dcf072bfc9d9495a58c5bd5c2a77ba8ba6ad8dbb21bb52cda414580d85"
+}

@@ -1,0 +1,1312 @@
+[
+ {
+  "id": "T01",
+  "cat": "simple",
+  "expect": "entailed",
+  "rules": [
+   "S-COUNT",
+   "S-DEAL"
+  ],
+  "oracle": "entailed",
+  "oracle_pos": [
+   "merlin",
+   "percival",
+   "servant",
+   "servant",
+   "morgana",
+   "mordred",
+   "minion"
+  ],
+  "z3": "entailed",
+  "core": [
+   "S-DEAL[morgana]",
+   "S-DEAL[mordred]",
+   "S-DEAL[oberon]",
+   "S-DEAL[minion]"
+  ],
+  "z3_pos": [
+   "servant",
+   "morgana",
+   "minion",
+   "merlin",
+   "servant",
+   "mordred",
+   "percival"
+  ],
+  "pass": true
+ },
+ {
+  "id": "T02",
+  "cat": "simple",
+  "expect": "contradicted",
+  "rules": [
+   "S-COUNT",
+   "S-DEAL"
+  ],
+  "oracle": "contradicted",
+  "oracle_neg": [
+   "merlin",
+   "percival",
+   "servant",
+   "servant",
+   "morgana",
+   "mordred",
+   "minion"
+  ],
+  "z3": "contradicted",
+  "core": [
+   "S-DEAL[morgana]",
+   "S-DEAL[mordred]",
+   "S-DEAL[minion]"
+  ],
+  "z3_neg": [
+   "percival",
+   "servant",
+   "merlin",
+   "servant",
+   "mordred",
+   "minion",
+   "morgana"
+  ],
+  "pass": true
+ },
+ {
+  "id": "T03",
+  "cat": "inconsistent",
+  "expect": "inconsistent",
+  "rules": [
+   "S-COUNT"
+  ],
+  "oracle": "inconsistent",
+  "z3": "inconsistent",
+  "core": [
+   "S-COUNT"
+  ],
+  "pass": true
+ },
+ {
+  "id": "T04",
+  "cat": "simple",
+  "expect": "entailed",
+  "rules": [
+   "T-SIZE"
+  ],
+  "oracle": "entailed",
+  "oracle_pos": [
+   "merlin",
+   "percival",
+   "servant",
+   "servant",
+   "servant",
+   "morgana",
+   "mordred",
+   "minion"
+  ],
+  "z3": "entailed",
+  "core": [],
+  "z3_pos": [
+   "merlin",
+   "morgana",
+   "servant",
+   "mordred",
+   "servant",
+   "percival",
+   "minion",
+   "servant"
+  ],
+  "pass": true
+ },
+ {
+  "id": "T05",
+  "cat": "boundary",
+  "expect": "contradicted",
+  "rules": [
+   "T-SIZE"
+  ],
+  "oracle": "contradicted",
+  "oracle_neg": [
+   "merlin",
+   "servant",
+   "servant",
+   "minion",
+   "minion"
+  ],
+  "z3": "contradicted",
+  "core": [],
+  "z3_neg": [
+   "minion",
+   "servant",
+   "merlin",
+   "servant",
+   "minion"
+  ],
+  "pass": true
+ },
+ {
+  "id": "T06",
+  "cat": "inconsistent",
+  "expect": "inconsistent",
+  "rules": [
+   "Q-SIZE"
+  ],
+  "oracle": "inconsistent",
+  "z3": "inconsistent",
+  "core": [
+   "Q-SIZE@q1"
+  ],
+  "pass": true
+ },
+ {
+  "id": "T07",
+  "cat": "boundary",
+  "expect": "contradicted",
+  "rules": [
+   "Q-TWOFAIL"
+  ],
+  "oracle": "contradicted",
+  "oracle_neg": [
+   "merlin",
+   "percival",
+   "servant",
+   "servant",
+   "morgana",
+   "mordred",
+   "minion"
+  ],
+  "z3": "contradicted",
+  "core": [],
+  "z3_neg": [
+   "morgana",
+   "mordred",
+   "minion",
+   "percival",
+   "servant",
+   "servant",
+   "merlin"
+  ],
+  "pass": true
+ },
+ {
+  "id": "T08",
+  "cat": "boundary",
+  "expect": "entailed",
+  "rules": [
+   "Q-TWOFAIL"
+  ],
+  "oracle": "entailed",
+  "oracle_pos": [
+   "merlin",
+   "percival",
+   "servant",
+   "servant",
+   "morgana",
+   "minion"
+  ],
+  "z3": "entailed",
+  "core": [],
+  "z3_pos": [
+   "minion",
+   "merlin",
+   "servant",
+   "servant",
+   "percival",
+   "morgana"
+  ],
+  "pass": true
+ },
+ {
+  "id": "T09",
+  "cat": "boundary",
+  "expect": "entailed",
+  "rules": [
+   "Q-TWOFAIL"
+  ],
+  "oracle": "entailed",
+  "oracle_pos": [
+   "merlin",
+   "percival",
+   "servant",
+   "servant",
+   "morgana",
+   "mordred",
+   "minion"
+  ],
+  "z3": "entailed",
+  "core": [],
+  "z3_pos": [
+   "morgana",
+   "merlin",
+   "minion",
+   "servant",
+   "percival",
+   "mordred",
+   "servant"
+  ],
+  "pass": true
+ },
+ {
+  "id": "T10",
+  "cat": "boundary",
+  "expect": "entailed",
+  "rules": [
+   "Q-TWOFAIL"
+  ],
+  "oracle": "entailed",
+  "oracle_pos": [
+   "merlin",
+   "percival",
+   "servant",
+   "servant",
+   "morgana",
+   "mordred",
+   "minion"
+  ],
+  "z3": "entailed",
+  "core": [],
+  "z3_pos": [
+   "servant",
+   "percival",
+   "morgana",
+   "merlin",
+   "mordred",
+   "servant",
+   "minion"
+  ],
+  "pass": true
+ },
+ {
+  "id": "T11",
+  "cat": "inconsistent",
+  "expect": "inconsistent",
+  "rules": [
+   "Q-RESULT",
+   "Q-TWOFAIL"
+  ],
+  "oracle": "inconsistent",
+  "z3": "inconsistent",
+  "core": [
+   "Q-RESULT@q4"
+  ],
+  "pass": true
+ },
+ {
+  "id": "T12",
+  "cat": "boundary",
+  "expect": "contradicted",
+  "rules": [
+   "T-VOTE"
+  ],
+  "oracle": "contradicted",
+  "oracle_neg": [
+   "merlin",
+   "percival",
+   "servant",
+   "servant",
+   "morgana",
+   "minion"
+  ],
+  "z3": "contradicted",
+  "core": [],
+  "z3_neg": [
+   "merlin",
+   "servant",
+   "minion",
+   "percival",
+   "morgana",
+   "servant"
+  ],
+  "pass": true
+ },
+ {
+  "id": "T13",
+  "cat": "boundary",
+  "expect": "entailed",
+  "rules": [
+   "T-VOTE"
+  ],
+  "oracle": "entailed",
+  "oracle_pos": [
+   "merlin",
+   "percival",
+   "servant",
+   "servant",
+   "morgana",
+   "mordred",
+   "minion"
+  ],
+  "z3": "entailed",
+  "core": [],
+  "z3_pos": [
+   "servant",
+   "minion",
+   "servant",
+   "percival",
+   "morgana",
+   "merlin",
+   "mordred"
+  ],
+  "pass": true
+ },
+ {
+  "id": "T14",
+  "cat": "inconsistent",
+  "expect": "inconsistent",
+  "rules": [
+   "T-VOTE"
+  ],
+  "oracle": "inconsistent",
+  "z3": "inconsistent",
+  "core": [
+   "T-VOTE@q1.1"
+  ],
+  "pass": true
+ },
+ {
+  "id": "T15",
+  "cat": "inconsistent",
+  "expect": "inconsistent",
+  "rules": [
+   "T-HAMMER"
+  ],
+  "oracle": "inconsistent",
+  "z3": "inconsistent",
+  "core": [
+   "T-HAMMER@q1:end"
+  ],
+  "pass": true
+ },
+ {
+  "id": "T16",
+  "cat": "inconsistent",
+  "expect": "inconsistent",
+  "rules": [
+   "T-LEADER"
+  ],
+  "oracle": "inconsistent",
+  "z3": "inconsistent",
+  "core": [
+   "T-LEADER@q1.2"
+  ],
+  "pass": true
+ },
+ {
+  "id": "T17",
+  "cat": "simple",
+  "expect": "entailed",
+  "rules": [
+   "Q-GOOD",
+   "Q-COUNT"
+  ],
+  "oracle": "entailed",
+  "oracle_pos": [
+   "minion",
+   "minion",
+   "merlin",
+   "servant",
+   "servant"
+  ],
+  "z3": "entailed",
+  "core": [
+   "Q-GOOD@q1:0",
+   "Q-GOOD@q1:1",
+   "Q-COUNT@q1"
+  ],
+  "z3_pos": [
+   "minion",
+   "minion",
+   "servant",
+   "servant",
+   "merlin"
+  ],
+  "pass": true
+ },
+ {
+  "id": "T18",
+  "cat": "combination",
+  "expect": "entailed",
+  "rules": [
+   "Q-GOOD",
+   "Q-COUNT",
+   "S-COUNT"
+  ],
+  "oracle": "entailed",
+  "oracle_pos": [
+   "minion",
+   "minion",
+   "merlin",
+   "servant",
+   "servant"
+  ],
+  "z3": "entailed",
+  "core": [
+   "S-DEAL[merlin]",
+   "S-DEAL[servant]",
+   "Q-GOOD@q1:0",
+   "Q-GOOD@q1:1",
+   "Q-COUNT@q1"
+  ],
+  "z3_pos": [
+   "minion",
+   "minion",
+   "merlin",
+   "servant",
+   "servant"
+  ],
+  "pass": true
+ },
+ {
+  "id": "T19",
+  "cat": "simple",
+  "expect": "undetermined",
+  "rules": [
+   "Q-GOOD",
+   "Q-COUNT"
+  ],
+  "oracle": "undetermined",
+  "oracle_pos": [
+   "merlin",
+   "minion",
+   "servant",
+   "servant",
+   "minion"
+  ],
+  "oracle_neg": [
+   "minion",
+   "minion",
+   "merlin",
+   "servant",
+   "servant"
+  ],
+  "z3": "undetermined",
+  "z3_pos": [
+   "minion",
+   "merlin",
+   "minion",
+   "servant",
+   "servant"
+  ],
+  "z3_neg": [
+   "minion",
+   "minion",
+   "servant",
+   "merlin",
+   "servant"
+  ],
+  "pass": true
+ },
+ {
+  "id": "T20",
+  "cat": "simple",
+  "expect": "entailed",
+  "rules": [
+   "Q-GOOD",
+   "Q-COUNT"
+  ],
+  "oracle": "entailed",
+  "oracle_pos": [
+   "merlin",
+   "minion",
+   "servant",
+   "servant",
+   "minion"
+  ],
+  "z3": "entailed",
+  "core": [
+   "Q-GOOD@q1:0",
+   "Q-GOOD@q1:1",
+   "Q-COUNT@q1"
+  ],
+  "z3_pos": [
+   "minion",
+   "minion",
+   "servant",
+   "merlin",
+   "servant"
+  ],
+  "pass": true
+ },
+ {
+  "id": "T21",
+  "cat": "simple",
+  "expect": "undetermined",
+  "rules": [
+   "Q-GOOD"
+  ],
+  "oracle": "undetermined",
+  "oracle_pos": [
+   "merlin",
+   "servant",
+   "servant",
+   "minion",
+   "minion"
+  ],
+  "oracle_neg": [
+   "merlin",
+   "minion",
+   "servant",
+   "servant",
+   "minion"
+  ],
+  "z3": "undetermined",
+  "z3_pos": [
+   "servant",
+   "merlin",
+   "minion",
+   "minion",
+   "servant"
+  ],
+  "z3_neg": [
+   "minion",
+   "merlin",
+   "servant",
+   "servant",
+   "minion"
+  ],
+  "pass": true
+ },
+ {
+  "id": "T22",
+  "cat": "combination",
+  "expect": "entailed",
+  "rules": [
+   "Q-COUNT",
+   "S-COUNT"
+  ],
+  "oracle": "entailed",
+  "oracle_pos": [
+   "morgana",
+   "mordred",
+   "minion",
+   "merlin",
+   "percival",
+   "servant",
+   "servant"
+  ],
+  "z3": "entailed",
+  "core": [
+   "S-DEAL[merlin]",
+   "S-DEAL[percival]",
+   "S-DEAL[servant]",
+   "Q-GOOD@q2:0",
+   "Q-GOOD@q2:1",
+   "Q-GOOD@q2:2",
+   "Q-COUNT@q2"
+  ],
+  "z3_pos": [
+   "minion",
+   "mordred",
+   "morgana",
+   "percival",
+   "servant",
+   "servant",
+   "merlin"
+  ],
+  "pass": true
+ },
+ {
+  "id": "T23",
+  "cat": "combination",
+  "expect": "entailed",
+  "rules": [
+   "Q-COUNT",
+   "S-COUNT"
+  ],
+  "oracle": "entailed",
+  "oracle_pos": [
+   "merlin",
+   "morgana",
+   "percival",
+   "servant",
+   "minion",
+   "servant"
+  ],
+  "z3": "entailed",
+  "core": [
+   "S-DEAL[merlin]",
+   "S-DEAL[percival]",
+   "S-DEAL[servant]",
+   "Q-GOOD@q1:0",
+   "Q-GOOD@q1:1",
+   "Q-COUNT@q1",
+   "Q-GOOD@q2:2",
+   "Q-GOOD@q2:3",
+   "Q-GOOD@q2:4",
+   "Q-COUNT@q2"
+  ],
+  "z3_pos": [
+   "morgana",
+   "servant",
+   "percival",
+   "merlin",
+   "minion",
+   "servant"
+  ],
+  "pass": true
+ },
+ {
+  "id": "T24",
+  "cat": "combination",
+  "expect": "undetermined",
+  "rules": [
+   "Q-COUNT",
+   "S-COUNT"
+  ],
+  "oracle": "undetermined",
+  "oracle_pos": [
+   "morgana",
+   "merlin",
+   "percival",
+   "servant",
+   "minion",
+   "servant"
+  ],
+  "oracle_neg": [
+   "merlin",
+   "morgana",
+   "percival",
+   "servant",
+   "minion",
+   "servant"
+  ],
+  "z3": "undetermined",
+  "z3_pos": [
+   "morgana",
+   "servant",
+   "servant",
+   "merlin",
+   "minion",
+   "percival"
+  ],
+  "z3_neg": [
+   "percival",
+   "morgana",
+   "servant",
+   "merlin",
+   "minion",
+   "servant"
+  ],
+  "pass": true
+ },
+ {
+  "id": "T25",
+  "cat": "inconsistent",
+  "expect": "inconsistent",
+  "rules": [
+   "Q-COUNT",
+   "S-COUNT"
+  ],
+  "oracle": "inconsistent",
+  "z3": "inconsistent",
+  "core": [
+   "S-DEAL[merlin]",
+   "S-DEAL[percival]",
+   "S-DEAL[servant]",
+   "Q-GOOD@q1:0",
+   "Q-GOOD@q1:1",
+   "Q-COUNT@q1",
+   "Q-GOOD@q2:2",
+   "Q-GOOD@q2:3",
+   "Q-GOOD@q2:4",
+   "Q-COUNT@q2"
+  ],
+  "pass": true
+ },
+ {
+  "id": "T26",
+  "cat": "perspective",
+  "expect": "contradicted",
+  "rules": [
+   "K-MERLIN",
+   "S-DEAL"
+  ],
+  "oracle": "contradicted",
+  "oracle_neg": [
+   "merlin",
+   "percival",
+   "morgana",
+   "servant",
+   "minion",
+   "servant",
+   "mordred"
+  ],
+  "z3": "contradicted",
+  "core": [
+   "S-DEAL[mordred]",
+   "K-MERLIN@2",
+   "K-MERLIN@4"
+  ],
+  "z3_neg": [
+   "merlin",
+   "mordred",
+   "minion",
+   "servant",
+   "morgana",
+   "percival",
+   "servant"
+  ],
+  "pass": true
+ },
+ {
+  "id": "T27",
+  "cat": "perspective",
+  "expect": "entailed",
+  "rules": [
+   "K-MERLIN",
+   "S-COUNT"
+  ],
+  "oracle": "entailed",
+  "oracle_pos": [
+   "merlin",
+   "percival",
+   "morgana",
+   "servant",
+   "minion",
+   "servant",
+   "mordred"
+  ],
+  "z3": "entailed",
+  "core": [
+   "S-DEAL[mordred]",
+   "V-SELF",
+   "K-MERLIN@1",
+   "K-MERLIN@2",
+   "K-MERLIN@3",
+   "K-MERLIN@4",
+   "K-MERLIN@5",
+   "K-MERLIN@6"
+  ],
+  "z3_pos": [
+   "merlin",
+   "servant",
+   "morgana",
+   "percival",
+   "minion",
+   "mordred",
+   "servant"
+  ],
+  "pass": true
+ },
+ {
+  "id": "T28",
+  "cat": "combination",
+  "expect": "entailed",
+  "rules": [
+   "K-MERLIN",
+   "Q-COUNT",
+   "S-COUNT"
+  ],
+  "oracle": "entailed",
+  "oracle_pos": [
+   "merlin",
+   "percival",
+   "morgana",
+   "mordred",
+   "minion",
+   "servant",
+   "servant"
+  ],
+  "z3": "entailed",
+  "core": [
+   "S-DEAL[mordred]",
+   "Q-GOOD@q1:1",
+   "Q-GOOD@q1:3",
+   "Q-COUNT@q1",
+   "K-MERLIN@1",
+   "K-MERLIN@3",
+   "K-MERLIN@5",
+   "K-MERLIN@6"
+  ],
+  "z3_pos": [
+   "merlin",
+   "servant",
+   "minion",
+   "mordred",
+   "morgana",
+   "servant",
+   "percival"
+  ],
+  "pass": true
+ },
+ {
+  "id": "T29",
+  "cat": "perspective",
+  "expect": "undetermined",
+  "rules": [
+   "K-PERCIVAL"
+  ],
+  "oracle": "undetermined",
+  "oracle_pos": [
+   "servant",
+   "percival",
+   "servant",
+   "merlin",
+   "mordred",
+   "morgana",
+   "minion"
+  ],
+  "oracle_neg": [
+   "servant",
+   "percival",
+   "servant",
+   "morgana",
+   "mordred",
+   "merlin",
+   "minion"
+  ],
+  "z3": "undetermined",
+  "z3_pos": [
+   "mordred",
+   "percival",
+   "minion",
+   "merlin",
+   "servant",
+   "morgana",
+   "servant"
+  ],
+  "z3_neg": [
+   "mordred",
+   "percival",
+   "minion",
+   "morgana",
+   "servant",
+   "merlin",
+   "servant"
+  ],
+  "pass": true
+ },
+ {
+  "id": "T30",
+  "cat": "combination",
+  "expect": "entailed",
+  "rules": [
+   "K-PERCIVAL",
+   "Q-COUNT"
+  ],
+  "oracle": "entailed",
+  "oracle_pos": [
+   "servant",
+   "percival",
+   "servant",
+   "morgana",
+   "mordred",
+   "merlin",
+   "minion"
+  ],
+  "z3": "entailed",
+  "core": [
+   "S-DEAL[merlin]",
+   "Q-GOOD@q1:3",
+   "Q-COUNT@q1",
+   "V-SELF",
+   "K-PERCIVAL@0",
+   "K-PERCIVAL@2",
+   "K-PERCIVAL@4",
+   "K-PERCIVAL@6"
+  ],
+  "z3_pos": [
+   "minion",
+   "percival",
+   "servant",
+   "morgana",
+   "servant",
+   "merlin",
+   "mordred"
+  ],
+  "pass": true
+ },
+ {
+  "id": "T31",
+  "cat": "perspective",
+  "expect": "contradicted",
+  "rules": [
+   "K-EVIL",
+   "S-COUNT"
+  ],
+  "oracle": "contradicted",
+  "oracle_neg": [
+   "merlin",
+   "percival",
+   "minion",
+   "servant",
+   "morgana",
+   "servant",
+   "oberon"
+  ],
+  "z3": "contradicted",
+  "core": [
+   "S-DEAL[oberon]",
+   "V-SELF",
+   "K-EVIL@4"
+  ],
+  "z3_neg": [
+   "oberon",
+   "merlin",
+   "minion",
+   "servant",
+   "morgana",
+   "servant",
+   "percival"
+  ],
+  "pass": true
+ },
+ {
+  "id": "T32",
+  "cat": "perspective",
+  "expect": "undetermined",
+  "rules": [
+   "K-EVIL"
+  ],
+  "oracle": "undetermined",
+  "oracle_pos": [
+   "merlin",
+   "percival",
+   "minion",
+   "servant",
+   "morgana",
+   "servant",
+   "oberon"
+  ],
+  "oracle_neg": [
+   "oberon",
+   "merlin",
+   "minion",
+   "percival",
+   "morgana",
+   "servant",
+   "servant"
+  ],
+  "z3": "undetermined",
+  "z3_pos": [
+   "servant",
+   "oberon",
+   "minion",
+   "percival",
+   "morgana",
+   "merlin",
+   "servant"
+  ],
+  "z3_neg": [
+   "oberon",
+   "percival",
+   "minion",
+   "merlin",
+   "morgana",
+   "servant",
+   "servant"
+  ],
+  "pass": true
+ },
+ {
+  "id": "T33",
+  "cat": "combination",
+  "expect": "entailed",
+  "rules": [
+   "V-SELF",
+   "Q-COUNT",
+   "S-COUNT"
+  ],
+  "oracle": "entailed",
+  "oracle_pos": [
+   "servant",
+   "minion",
+   "minion",
+   "merlin",
+   "servant"
+  ],
+  "z3": "entailed",
+  "core": [
+   "S-DEAL[morgana]",
+   "S-DEAL[mordred]",
+   "S-DEAL[oberon]",
+   "S-DEAL[minion]",
+   "Q-GOOD@q1:1",
+   "Q-GOOD@q1:2",
+   "Q-COUNT@q1"
+  ],
+  "z3_pos": [
+   "servant",
+   "minion",
+   "minion",
+   "servant",
+   "merlin"
+  ],
+  "pass": true
+ },
+ {
+  "id": "T34",
+  "cat": "inconsistent",
+  "expect": "inconsistent",
+  "rules": [
+   "K-PERCIVAL"
+  ],
+  "oracle": "inconsistent",
+  "z3": "inconsistent",
+  "core": [
+   "S-DEAL[merlin]",
+   "S-DEAL[morgana]",
+   "K-PERCIVAL@2",
+   "K-PERCIVAL@3",
+   "K-PERCIVAL@5"
+  ],
+  "pass": true
+ },
+ {
+  "id": "T35",
+  "cat": "inconsistent",
+  "expect": "inconsistent",
+  "rules": [
+   "V-SELF",
+   "Q-GOOD",
+   "Q-COUNT"
+  ],
+  "oracle": "inconsistent",
+  "z3": "inconsistent",
+  "core": [
+   "Q-GOOD@q1:0",
+   "Q-COUNT@q1",
+   "V-SELF"
+  ],
+  "pass": true
+ },
+ {
+  "id": "T36",
+  "cat": "simple",
+  "expect": "entailed",
+  "rules": [
+   "G-MERLIN-HIT"
+  ],
+  "oracle": "entailed",
+  "oracle_pos": [
+   "merlin",
+   "servant",
+   "servant",
+   "minion",
+   "minion"
+  ],
+  "z3": "entailed",
+  "core": [
+   "G-MERLIN-HIT"
+  ],
+  "z3_pos": [
+   "servant",
+   "minion",
+   "servant",
+   "minion",
+   "merlin"
+  ],
+  "pass": true
+ },
+ {
+  "id": "T37",
+  "cat": "simple",
+  "expect": "entailed",
+  "rules": [
+   "G-MERLIN-HIT"
+  ],
+  "oracle": "entailed",
+  "oracle_pos": [
+   "servant",
+   "servant",
+   "minion",
+   "merlin",
+   "minion"
+  ],
+  "z3": "entailed",
+  "core": [
+   "G-MERLIN-HIT"
+  ],
+  "z3_pos": [
+   "minion",
+   "servant",
+   "minion",
+   "merlin",
+   "servant"
+  ],
+  "pass": true
+ },
+ {
+  "id": "T38",
+  "cat": "inconsistent",
+  "expect": "inconsistent",
+  "rules": [
+   "G-ASSASSIN"
+  ],
+  "oracle": "inconsistent",
+  "z3": "inconsistent",
+  "core": [
+   "G-ASSASSIN"
+  ],
+  "pass": true
+ },
+ {
+  "id": "T39",
+  "cat": "inconsistent",
+  "expect": "inconsistent",
+  "rules": [
+   "G-END"
+  ],
+  "oracle": "inconsistent",
+  "z3": "inconsistent",
+  "core": [
+   "G-END@q4"
+  ],
+  "pass": true
+ },
+ {
+  "id": "T40",
+  "cat": "perspective",
+  "expect": "entailed",
+  "rules": [
+   "K-LADY"
+  ],
+  "oracle": "entailed",
+  "oracle_pos": [
+   "servant",
+   "merlin",
+   "percival",
+   "servant",
+   "servant",
+   "morgana",
+   "mordred",
+   "minion"
+  ],
+  "z3": "entailed",
+  "core": [
+   "K-LADY@3"
+  ],
+  "z3_pos": [
+   "servant",
+   "morgana",
+   "minion",
+   "merlin",
+   "mordred",
+   "percival",
+   "servant",
+   "servant"
+  ],
+  "pass": true
+ },
+ {
+  "id": "T41",
+  "cat": "inconsistent",
+  "expect": "inconsistent",
+  "rules": [
+   "L-PREV",
+   "L-CHAIN"
+  ],
+  "oracle": "inconsistent",
+  "z3": "inconsistent",
+  "core": [
+   "L-PREV@2"
+  ],
+  "pass": true
+ },
+ {
+  "id": "T42",
+  "cat": "variant",
+  "expect": "undetermined",
+  "rules": [
+   "Q-COUNT",
+   "V-FAILCOUNT"
+  ],
+  "oracle": "undetermined",
+  "oracle_pos": [
+   "minion",
+   "minion",
+   "merlin",
+   "servant",
+   "servant"
+  ],
+  "oracle_neg": [
+   "merlin",
+   "minion",
+   "servant",
+   "servant",
+   "minion"
+  ],
+  "z3": "undetermined",
+  "z3_pos": [
+   "minion",
+   "minion",
+   "merlin",
+   "servant",
+   "servant"
+  ],
+  "z3_neg": [
+   "minion",
+   "merlin",
+   "minion",
+   "servant",
+   "servant"
+  ],
+  "pass": true
+ },
+ {
+  "id": "T43",
+  "cat": "variant",
+  "expect": "entailed",
+  "rules": [
+   "K-MERLIN",
+   "V-OBERON"
+  ],
+  "oracle": "entailed",
+  "oracle_pos": [
+   "merlin",
+   "percival",
+   "morgana",
+   "servant",
+   "oberon",
+   "servant",
+   "minion",
+   "servant",
+   "servant",
+   "mordred"
+  ],
+  "z3": "entailed",
+  "core": [
+   "S-DEAL[mordred]",
+   "V-SELF",
+   "K-MERLIN@1",
+   "K-MERLIN@2",
+   "K-MERLIN@3",
+   "K-MERLIN@4",
+   "K-MERLIN@5",
+   "K-MERLIN@6",
+   "K-MERLIN@7",
+   "K-MERLIN@8",
+   "K-MERLIN@9"
+  ],
+  "z3_pos": [
+   "merlin",
+   "servant",
+   "minion",
+   "percival",
+   "morgana",
+   "servant",
+   "oberon",
+   "mordred",
+   "servant",
+   "servant"
+  ],
+  "pass": true
+ },
+ {
+  "id": "T44",
+  "cat": "variant",
+  "expect": "inconsistent",
+  "rules": [
+   "K-MERLIN",
+   "V-OBERON"
+  ],
+  "oracle": "inconsistent",
+  "z3": "inconsistent",
+  "core": [
+   "S-DEAL[morgana]",
+   "S-DEAL[minion]",
+   "K-MERLIN@2",
+   "K-MERLIN@4",
+   "K-MERLIN@6"
+  ],
+  "pass": true
+ }
+]

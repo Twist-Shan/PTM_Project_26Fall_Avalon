@@ -1,0 +1,55 @@
+{
+  "items": 510,
+  "labels": {
+    "contradicted": 150,
+    "undetermined": 150,
+    "inconsistent": 60,
+    "entailed": 150
+  },
+  "games": 510,
+  "seed": 137,
+  "backend": "z3",
+  "n_dist": {
+    "5": 144,
+    "8": 72,
+    "6": 121,
+    "9": 33,
+    "7": 118,
+    "10": 22
+  },
+  "perspective": {
+    "servant": 139,
+    "observer": 135,
+    "minion": 64,
+    "merlin": 54,
+    "morgana": 49,
+    "percival": 39,
+    "mordred": 21,
+    "oberon": 9
+  },
+  "claim_types": {
+    "evil_set": 52,
+    "atleast": 136,
+    "good": 77,
+    "evil": 78,
+    "role": 46,
+    "same": 38,
+    "not": 53,
+    "exactly": 30
+  },
+  "corruptions": {
+    "team_size": 21,
+    "fails_over_team": 21,
+    "self_fail": 9,
+    "evil_overflow": 3,
+    "two_fail": 5,
+    "percival_three": 1
+  },
+  "reveal_status": {
+    "ok": 122,
+    "none": 28
+  },
+  "tasks_sha256": "256fefe30df81be9bcfde152fe4cf0cb1229b0675a7ad6929b983c7a1dbe59c0",
+  "source": "results/audit/parsed_games.jsonl",
+  "avalonlogs_commit": "3219bbdd1a27b77da6c9e9f7b1f05f7d3969398f"
+}

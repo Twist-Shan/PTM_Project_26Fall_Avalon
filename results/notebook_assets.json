@@ -1,0 +1,14 @@
+{
+  "avalon/game.py": "b2d0ac8e9fecdd2ad38b6fcf32918f9956ea8322dbc661959926d71abbb57211",
+  "avalon/oracle.py": "97153c6487e96e5426d3773f61d7e9f55b5053b0f1340f6238e30ce5b44b123d",
+  "avalon/smt.py": "f4eee3e7bc07ca01268d9da3666d49aba80a2d47bb2be734b6ac10ccbc0eef42",
+  "avalon/search.py": "f14cf65663edd408bf716aade9b7a842e3bcfabb0a37c328840f36be6d5625c4",
+  "avalon/sim.py": "57819bb0bf2823e143fd5617fa0ff200f2cd81da7899b6cd34c7c098d4442f82",
+  "avalon/cases.py": "472ba91d4974f75a5ddb4353959b24287d452c20fc8c0609f7b5508401fce14b",
+  "avalon/selfcheck.py": "1520adb1eb3511c32850160775de9c6ad2c51c179153d28fa1daed4954510b95",
+  "avalon/logs.py": "7aeef563e271159df000625d9458acb7d05bcfa7007f5303a08542f0ff2dde6d",
+  "avalon/analyze.py": "6ec0353198a69825fc1df29b31d7bab933d63ccb013ee4fa09d9625b6aa7226e",
+  "avalon/llm_tasks.py": "ba89db2de1883e36d845cef1020b66720ca0f9e25056a00516571f3f6d4cceea",
+  "avalon/llm_run.py": "391afdd173b56c7b50adf71e313442a300118e18dd20e565e6f1351c57c4ae00",
+  "RULES.md": "1cd9f32b80aa49bfee2fbb8c4235aa8fb4a546af9941943097d9607d868b26dd"
+}

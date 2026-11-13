@@ -1,0 +1,35 @@
+{
+  "files": 2,
+  "loaded": 2,
+  "parsed": 2,
+  "skipped": {},
+  "vote_semantics": {
+    "proposals": 10,
+    "votes_are_approvers": 10,
+    "votes_are_rejecters": 0
+  },
+  "votes_interpreted_as": "approve",
+  "leader_direction": {
+    "next_in_array": 8,
+    "previous_in_array": 0,
+    "other": 0
+  },
+  "seats_reversed": false,
+  "platform_table_mismatch": {},
+  "games_with_rule_violations": 0,
+  "violations_by_rule": {},
+  "true_roles_inconsistent": {
+    "public_record": 1,
+    "view_minion": 2,
+    "view_servant": 2,
+    "view_percival": 1,
+    "view_merlin": 1,
+    "view_morgana": 1
+  },
+  "players": {
+    "7": 2
+  },
+  "configs": {
+    "{\"merlin\": 1, \"minion\": 2, \"morgana\": 1, \"percival\": 1, \"servant\": 2}": 2
+  }
+}

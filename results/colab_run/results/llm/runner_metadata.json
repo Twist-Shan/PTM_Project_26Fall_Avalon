@@ -1,0 +1,19 @@
+{
+  "model": "Qwen/Qwen3-8B",
+  "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+  "gpu_mem_gib": 95.0,
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "4.57.6",
+  "dtype": "bfloat16",
+  "batch_size": 16,
+  "greedy_when_thinking_off": true,
+  "thinking_sampling": {
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "top_k": 20
+  },
+  "seed": 42,
+  "code_sha256": "391afdd173b56c7b50adf71e313442a300118e18dd20e565e6f1351c57c4ae00"
+}

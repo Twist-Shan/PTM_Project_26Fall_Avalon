@@ -1,0 +1,52 @@
+{
+  "files": 12447,
+  "loaded": 12447,
+  "parsed": 12447,
+  "skipped": {},
+  "vote_semantics": {
+    "proposals": 88302,
+    "votes_are_approvers": 88302,
+    "votes_are_rejecters": 6640
+  },
+  "votes_interpreted_as": "approve",
+  "leader_direction": {
+    "next_in_array": 75855,
+    "previous_in_array": 0,
+    "other": 0
+  },
+  "seats_reversed": false,
+  "platform_table_mismatch": {
+    "platform_failsRequired": 2
+  },
+  "games_with_rule_violations": 1,
+  "violations_by_rule": {
+    "Q-RESULT": 1
+  },
+  "true_roles_inconsistent": {},
+  "players": {
+    "6": 3184,
+    "8": 1690,
+    "7": 2756,
+    "5": 3362,
+    "10": 605,
+    "9": 850
+  },
+  "configs": {
+    "{\"merlin\": 1, \"minion\": 1, \"morgana\": 1, \"percival\": 1, \"servant\": 1}": 1166,
+    "{\"merlin\": 1, \"mordred\": 1, \"morgana\": 1, \"percival\": 1, \"servant\": 2}": 1143,
+    "{\"merlin\": 1, \"minion\": 1, \"morgana\": 1, \"percival\": 1, \"servant\": 2}": 1055,
+    "{\"merlin\": 1, \"mordred\": 1, \"morgana\": 1, \"percival\": 1, \"servant\": 1}": 895,
+    "{\"merlin\": 1, \"minion\": 2, \"morgana\": 1, \"percival\": 1, \"servant\": 2}": 818,
+    "{\"merlin\": 1, \"mordred\": 1, \"morgana\": 1, \"oberon\": 1, \"percival\": 1, \"servant\": 2}": 634,
+    "{\"merlin\": 1, \"minion\": 1, \"mordred\": 1, \"morgana\": 1, \"percival\": 1, \"servant\": 2}": 493,
+    "{\"merlin\": 1, \"mordred\": 1, \"morgana\": 1, \"oberon\": 1, \"percival\": 1, \"servant\": 3}": 470,
+    "{\"merlin\": 1, \"minion\": 2, \"morgana\": 1, \"percival\": 1, \"servant\": 3}": 433,
+    "{\"merlin\": 1, \"minion\": 1, \"mordred\": 1, \"morgana\": 1, \"percival\": 1, \"servant\": 3}": 423,
+    "{\"merlin\": 1, \"minion\": 2, \"servant\": 2}": 396,
+    "{\"minion\": 2, \"servant\": 3}": 375,
+    "{\"merlin\": 1, \"minion\": 1, \"mordred\": 1, \"morgana\": 1, \"percival\": 1, \"servant\": 4}": 353,
+    "{\"merlin\": 1, \"minion\": 2, \"servant\": 3}": 344,
+    "{\"merlin\": 1, \"minion\": 1, \"mordred\": 1, \"morgana\": 1, \"oberon\": 1, \"percival\": 1, \"servant\": 4}": 287
+  },
+  "avalonlogs_commit": "3219bbdd1a27b77da6c9e9f7b1f05f7d3969398f"
+}

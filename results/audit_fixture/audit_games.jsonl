@@ -1,0 +1,2 @@
+{"game": "fixture_bad_fails.json", "n": 7, "violations": [], "truth_consistent": false}
+{"game": "fixture_game_QQN.json", "n": 7, "violations": [], "truth_consistent": true}
