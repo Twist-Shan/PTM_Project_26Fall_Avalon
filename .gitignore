@@ -14,6 +14,11 @@ _archive_tau2/
 !/avalon_followup_inputs.zip
 # The course paper is kept locally and submitted separately, not published here
 report/
+# Local working notes: course brief and experiment handoff instructions
+COURSE_REQUIREMENTS.md
+CODEX_HANDOFF.md
+CODEX_FOLLOWUP.md
+CHANGES_BY_CODEX.md
 # LaTeX build intermediates
 *.aux
 *.log

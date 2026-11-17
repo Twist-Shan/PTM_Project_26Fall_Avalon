@@ -23,9 +23,7 @@
 | `avalon/build_colab.py` | 生成自包含的 `colab_avalon.ipynb` |
 | `avalon/followup.py` | 后续实验：thinking 预算续写与强制作答、不读标准答案的验证流水线、抽取修复、评分 |
 | `avalon/build_followup_colab.py` | 生成 `colab_avalon_followup.ipynb` 与输入包 `avalon_followup_inputs.zip` |
-| `CODEX_FOLLOWUP.md` | 后续实验执行说明 |
 | `tests/fixture_avalonlogs/` | 按真实日志结构构造的解析测试样例 |
-| `CODEX_HANDOFF.md` | 实验执行说明 |
 | `results/` | 冻结题集、逐题输出、审计与评分结果 |
 
 ## 已完成的结果
@@ -60,9 +58,9 @@ Linux/macOS将解释器路径替换为`.venv/bin/python`。完整编码验收可
 
 ## Colab实验
 
-- 首次实验：[colab_avalon.ipynb](colab_avalon.ipynb)。真实日志在Colab内克隆，含冒号的原始文件名不兼容Windows。
-- 后续实验：[colab_avalon_followup.ipynb](colab_avalon_followup.ipynb)。使用已提交的`avalon_followup_inputs.zip`，复用冻结题集及首次输出；显存至少40GiB且支持BF16。
-- 严格步骤见[首次执行说明](CODEX_HANDOFF.md)及[后续执行说明](CODEX_FOLLOWUP.md)。首次说明中的A100要求后经授权放宽，实际运行使用95GiB RTX PRO 6000；详见运行报告。
+- 首次实验：[colab_avalon.ipynb](colab_avalon.ipynb)。上传到Colab，选择支持BF16的GPU，从上到下运行全部单元。真实日志在Colab内克隆，含冒号的原始文件名不兼容Windows，不要下载到本地。第4节Z3与独立穷举的交叉验证若断言失败，应停止，不要加载模型。模型单元中断后重新运行同一单元即可续跑。第7节下载`avalon_results.zip`与`avalon_data_llm.zip`，解压到`results/colab_run/`。
+- 后续实验：[colab_avalon_followup.ipynb](colab_avalon_followup.ipynb)。需要显存至少40GiB且支持BF16的GPU；把已提交的`avalon_followup_inputs.zip`上传到`/content`，按顺序运行全部单元。各阶段自动下载`avalon_followup_stage*.zip`；运行时被回收时，上传最近一次的阶段包后可续跑。最终的`avalon_followup_final.zip`解压到`results/followup_run/`，再用上面的`--score`命令在本地复核。
+- 实际运行使用95GiB RTX PRO 6000（原计划的A100未能分配）；各阶段耗时与异常处理见运行报告。
 - 不需要重新生成已有notebook。生成器仅供维护；后续输入包的SHA256必须与notebook一致。
 
 ## 数据与仓库范围
